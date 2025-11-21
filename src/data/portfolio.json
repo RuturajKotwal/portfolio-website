@@ -1,0 +1,90 @@
+{
+    "personalInfo": {
+        "name": "Alex Developer",
+        "tagline": "Building digital experiences that matter.",
+        "bio": "I'm a passionate Senior Frontend Engineer with a knack for creating intuitive and dynamic user interfaces. With over 5 years of experience, I specialize in React, Tailwind CSS, and modern web technologies. I love solving complex problems and bringing ideas to life through code.",
+        "socials": {
+            "github": "https://github.com",
+            "linkedin": "https://linkedin.com",
+            "email": "mailto:alex@example.com"
+        },
+        "resumeUrl": "#"
+    },
+    "experience": [
+        {
+            "id": 1,
+            "role": "Senior Frontend Engineer",
+            "company": "Tech Innovations Inc.",
+            "period": "2023 - Present",
+            "description": "Leading the frontend migration to React. Improved site performance by 40%. Mentoring junior developers."
+        },
+        {
+            "id": 2,
+            "role": "Frontend Developer",
+            "company": "Creative Solutions",
+            "period": "2020 - 2023",
+            "description": "Developed responsive web applications for various clients. Collaborated with designers to implement pixel-perfect UIs."
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "E-Commerce Dashboard",
+            "description": "A comprehensive dashboard for managing online stores, featuring real-time analytics and inventory management.",
+            "techStack": [
+                "React",
+                "Redux",
+                "Chart.js",
+                "Tailwind"
+            ],
+            "link": "https://github.com",
+            "demo": "https://example.com"
+        },
+        {
+            "id": 2,
+            "title": "Task Management App",
+            "description": "A collaborative task manager with drag-and-drop functionality and team features.",
+            "techStack": [
+                "React",
+                "Firebase",
+                "Framer Motion"
+            ],
+            "link": "https://github.com",
+            "demo": "https://example.com"
+        },
+        {
+            "id": 3,
+            "title": "Weather Forecast",
+            "description": "A beautiful weather app providing detailed forecasts and interactive maps.",
+            "techStack": [
+                "React",
+                "OpenWeatherMap API",
+                "Styled Components"
+            ],
+            "link": "https://github.com",
+            "demo": "https://example.com"
+        }
+    ],
+    "skills": {
+        "Frontend": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Next.js",
+            "Redux"
+        ],
+        "Backend": [
+            "Node.js",
+            "Express",
+            "PostgreSQL",
+            "Firebase"
+        ],
+        "Tools": [
+            "Git",
+            "Docker",
+            "Webpack",
+            "Jest",
+            "Figma"
+        ]
+    }
+}
