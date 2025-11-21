@@ -1,90 +1,172 @@
 {
     "personalInfo": {
-        "name": "Alex Developer",
-        "tagline": "Building digital experiences that matter.",
-        "bio": "I'm a passionate Senior Frontend Engineer with a knack for creating intuitive and dynamic user interfaces. With over 5 years of experience, I specialize in React, Tailwind CSS, and modern web technologies. I love solving complex problems and bringing ideas to life through code.",
+        "name": "Ruturaj Jayant Kotwal",
+        "tagline": "AI & Software Engineer | Cloud-Native & Data Pipelines",
+        "bio": "AI & software engineer with 3+ years of experience building cloud-native applications, data pipelines, and automation workflows across GCP, AWS, and modern JavaScript & Python ecosystems.",
         "socials": {
-            "github": "https://github.com",
-            "linkedin": "https://linkedin.com",
-            "email": "mailto:alex@example.com"
+            "github": "https://github.com/RuturajKotwal",
+            "linkedin": "https://linkedin.com/in/ruturaj-kotwal",
+            "email": "mailto:ruturajkotwal@gmail.com"
         },
-        "resumeUrl": "#"
+        "resumeUrl": "#",
+        "location": "Frankfurt, Germany",
+        "phone": "+49 1556 6037268"
     },
     "experience": [
         {
             "id": 1,
-            "role": "Senior Frontend Engineer",
-            "company": "Tech Innovations Inc.",
-            "period": "2023 - Present",
-            "description": "Leading the frontend migration to React. Improved site performance by 40%. Mentoring junior developers."
+            "role": "Thesis Student",
+            "company": "Deutsche Bank AG",
+            "period": "Jul 2025 – Sep 2025",
+            "description": "Designed an agentic-AI-driven automation framework for corporate action processing on Google Cloud. Built a proof-of-concept system by engineering BigQuery pipelines and prototyping autonomous workflows using Vertex AI."
         },
         {
             "id": 2,
-            "role": "Frontend Developer",
-            "company": "Creative Solutions",
-            "period": "2020 - 2023",
-            "description": "Developed responsive web applications for various clients. Collaborated with designers to implement pixel-perfect UIs."
+            "role": "Intern - TDI",
+            "company": "Deutsche Bank AG",
+            "period": "Jan 2025 – May 2025",
+            "description": "Completed the DB Cloud Developer sprint with hands-on development in GCP services. Supported production teams by debugging Python-based internal data-processing tools, improving system reliability."
+        },
+        {
+            "id": 3,
+            "role": "Software Developer",
+            "company": "Zoomifier Corporation",
+            "period": "Nov 2021 – Feb 2024",
+            "description": "Migrated a legacy PHP CRM into a Vue.js component-based architecture. Built event-driven AWS Lambda functions. Implemented multi-step automation workflows using Zapier. Optimized API data-fetching logic."
+        },
+        {
+            "id": 4,
+            "role": "Software Development Engineer",
+            "company": "Maverick Labs",
+            "period": "Jun 2021 – Aug 2021",
+            "description": "Contributed to a JavaScript-based web application. Developed and maintained Jest unit tests for UI components and utilities."
+        },
+        {
+            "id": 5,
+            "role": "Software Development Intern",
+            "company": "Maverick Labs",
+            "period": "Dec 2020 – May 2021",
+            "description": "Identified and resolved bugs in production code, gaining early experience in debugging, code reviews, and release cycles."
+        }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "degree": "M.Sc. Artificial Intelligence and Robotics",
+            "school": "Hochschule Hof",
+            "period": "Mar 2024 – present",
+            "location": "Germany"
+        },
+        {
+            "id": 2,
+            "degree": "M.Sc. Computer Science",
+            "school": "Savitribai Phule Pune University",
+            "period": "Jun 2019 – May 2021",
+            "location": "India"
         }
     ],
     "projects": [
         {
             "id": 1,
-            "title": "E-Commerce Dashboard",
-            "description": "A comprehensive dashboard for managing online stores, featuring real-time analytics and inventory management.",
+            "title": "Speech-controlled Object Recognition",
+            "description": "Developed a Python and OpenCV solution for real-time voice-activated object recognition for Nao6 Robot. Tested an AI-driven prototype that enabled responsive interaction through REST API integration.",
             "techStack": [
-                "React",
-                "Redux",
-                "Chart.js",
-                "Tailwind"
+                "Python",
+                "OpenCV",
+                "REST API",
+                "Robotics"
             ],
-            "link": "https://github.com",
-            "demo": "https://example.com"
+            "link": "",
+            "demo": ""
         },
         {
             "id": 2,
-            "title": "Task Management App",
-            "description": "A collaborative task manager with drag-and-drop functionality and team features.",
+            "title": "Multi-modal LLMs vs Specialist AI",
+            "description": "Benchmarked multimodal LLMs against specialist computer vision models across tasks (classification, detection, segmentation), highlighting their performance trade-offs.",
             "techStack": [
-                "React",
-                "Firebase",
-                "Framer Motion"
+                "LLMs",
+                "Computer Vision",
+                "Benchmarking"
             ],
-            "link": "https://github.com",
-            "demo": "https://example.com"
+            "link": "",
+            "demo": ""
         },
         {
             "id": 3,
-            "title": "Weather Forecast",
-            "description": "A beautiful weather app providing detailed forecasts and interactive maps.",
+            "title": "E-Commerce Analytics Platform",
+            "description": "Built a cloud data warehouse in BigQuery by processing and integrating 9 raw datasets. Delivered business insights through dashboards highlighting product performance and customer trends.",
             "techStack": [
-                "React",
-                "OpenWeatherMap API",
-                "Styled Components"
+                "GCP",
+                "BigQuery",
+                "Data Warehousing",
+                "Analytics"
             ],
-            "link": "https://github.com",
-            "demo": "https://example.com"
+            "link": "",
+            "demo": ""
+        },
+        {
+            "id": 4,
+            "title": "Automated Object Detection & Sorting",
+            "description": "Implemented real-time color detection using YOLOv7 + OpenCV to control conveyor operations and robotic sorting. Added a WhatsApp-based alert system.",
+            "techStack": [
+                "YOLOv7",
+                "OpenCV",
+                "Robotics",
+                "Python"
+            ],
+            "link": "",
+            "demo": ""
+        },
+        {
+            "id": 5,
+            "title": "Healthcare Analytics",
+            "description": "Pre-processed complex tabular datasets and engineered features from ICD-9 medical codes. Built a classification model to predict 30-day readmission risk.",
+            "techStack": [
+                "Machine Learning",
+                "Feature Engineering",
+                "Healthcare Data"
+            ],
+            "link": "",
+            "demo": ""
+        },
+        {
+            "id": 6,
+            "title": "Intrusion Detection System",
+            "description": "Developed a high-accuracy (95%+) model to classify malicious vs. benign network traffic using the CIC-IDS2017 dataset. Leveraged XGBoost and Keras-based MLP.",
+            "techStack": [
+                "XGBoost",
+                "Keras",
+                "Deep Learning",
+                "Cybersecurity"
+            ],
+            "link": "",
+            "demo": ""
         }
     ],
     "skills": {
-        "Frontend": [
-            "React",
-            "TypeScript",
-            "Tailwind CSS",
-            "Next.js",
-            "Redux"
+        "Frontend & Web": [
+            "FastAPI",
+            "Vue.js",
+            "Vuex",
+            "Component Architecture"
         ],
-        "Backend": [
-            "Node.js",
-            "Express",
-            "PostgreSQL",
-            "Firebase"
+        "Cloud": [
+            "AWS (Lambda, S3)",
+            "GCP (BigQuery, Cloud Functions)"
+        ],
+        "Data & ML": [
+            "Data Pipelines",
+            "MLP Models",
+            "YOLOv7",
+            "Feature Engineering"
         ],
         "Tools": [
             "Git",
-            "Docker",
-            "Webpack",
-            "Jest",
-            "Figma"
+            "YouTrack"
+        ],
+        "Languages": [
+            "English (C1)",
+            "German (B1)"
         ]
     }
 }
