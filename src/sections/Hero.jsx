@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
+import profileImg from '../assets/profile.jpg';
 import portfolioData from '../data/portfolio.json';
 
 const Hero = () => {
@@ -64,7 +65,7 @@ const Hero = () => {
                         {/* Placeholder for profile image or 3D element */}
                         <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl">
                             <img
-                                src="https://api.dicebear.com/7.x/avataaars/svg?seed=Alex"
+                                src={profileImg}
                                 alt="Profile"
                                 className="w-full h-full object-cover"
                             />
