@@ -17,9 +17,9 @@ const Contact = () => {
                     transition={{ duration: 0.5 }}
                     className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-12 md:p-20 text-center text-white"
                 >
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6">Ready to work together?</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6">Open to new opportunities</h2>
                     <p className="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
-                        I'm always open to discussing product design work or partnership opportunities.
+                        I'm currently looking for full-time opportunities. If you're hiring or just want to say hi, feel free to reach out!
                     </p>
                     <a
                         href={socials.email}
