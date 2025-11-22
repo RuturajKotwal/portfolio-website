@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowRight, Download, Github, Linkedin, BookOpen, Mail } from 'lucide-react';
 import profileImg from '../assets/profile.png';
 import resumePdf from '../assets/resume.pdf';
 import portfolioData from '../data/portfolio.json';
@@ -51,6 +51,11 @@ const Hero = () => {
                             <a href={socials.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
                                 <Linkedin size={24} />
                             </a>
+                            {socials.researchgate && (
+                                <a href={socials.researchgate} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-green-500 dark:text-gray-400 dark:hover:text-green-400 transition-colors" title="ResearchGate">
+                                    <BookOpen size={24} />
+                                </a>
+                            )}
                             <a href={socials.email} className="text-gray-500 hover:text-red-500 dark:text-gray-400 dark:hover:text-red-400 transition-colors">
                                 <Mail size={24} />
                             </a>
